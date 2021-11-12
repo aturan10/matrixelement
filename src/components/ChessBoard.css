@@ -1,0 +1,32 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px);
+  height: 800px;
+  width: 800px;
+  background-color: white;
+}
+.cell {
+  display: grid;
+  place-items: center;
+
+  cursor: grab;
+
+  width: 100%;
+  height: 100%;
+}
+.cell-odd {
+  background-color: rgb(33, 87, 236);
+}
+.cell-even {
+  background-color: rgb(243, 20, 20);
+}
+
+.rook-black {
+    font-size: 60px;
+  color: black;
+}
+.rook-white {
+    font-size: 60px;
+  color: rgb(234, 245, 239);
+}
